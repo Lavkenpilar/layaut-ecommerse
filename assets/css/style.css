@@ -41,31 +41,37 @@
 }
 .imagen1{
     grid-area:a;
+    background-color:white;
    
 }
 .imagen2 {
     grid-area: b;
+    background-color:white;
     
 }
 .imagen3 {
     grid-area: c;
+    background-color:white;
    
 }
 .imagen4 {
     grid-area: d;
+    background-color:white;
 }
 .imagen5 {
     grid-area: e;
+    background-color:white;
 }
 .imagen6 {
     grid-area: f;
+    background-color:white;
 }
 
 .gallery {
-    height: 100%;
     display: grid;
     gap: 20px;
     grid-template-areas: 
     'a b c'
     'd e f ';
-}
+    flex-grow: 1;
+   }
