@@ -15,6 +15,7 @@
     grid-area: main;
     display: flex;
     gap: 20px;
+    justify-content: center;
     }
 .footer {
     grid-area: footer;
@@ -42,29 +43,42 @@
 .imagen1{
     grid-area:a;
     background-color:white;
+    display: flex;
+    flex-direction: column;
+    
    
 }
 .imagen2 {
     grid-area: b;
     background-color:white;
+    display: flex;
+    flex-direction: column;
     
 }
 .imagen3 {
     grid-area: c;
     background-color:white;
+    display: flex;
+    flex-direction: column;
    
 }
 .imagen4 {
     grid-area: d;
     background-color:white;
+    display: flex;
+    flex-direction: column;
 }
 .imagen5 {
     grid-area: e;
     background-color:white;
+    display: flex;
+    flex-direction: column;
 }
 .imagen6 {
     grid-area: f;
     background-color:white;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery {
@@ -73,5 +87,6 @@
     grid-template-areas: 
     'a b c'
     'd e f ';
-    flex-grow: 1;
+    flex-grow: 0.3;
+    flex-basis: 70%;
    }
