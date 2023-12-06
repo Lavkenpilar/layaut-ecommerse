@@ -1,0 +1,11 @@
+.navbar {
+    grid-area: navbar;
+    height: 15em;
+    background-color: cornflowerblue;
+
+    }
+.navbar-item {
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
