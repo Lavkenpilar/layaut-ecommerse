@@ -1,11 +1,71 @@
 .navbar {
     grid-area: navbar;
-    height: 15em;
     background-color: cornflowerblue;
 
     }
 .navbar-item {
-    font-size: 90px;
+    font-size: 20px;
     color: white;
     text-align: center;
+}
+.asidebar {
+    grid-area: asidebar;
+   }
+.main {
+    grid-area: main;
+    display: flex;
+    gap: 20px;
+    }
+.footer {
+    grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'navbar navbar'
+    'asidebar main'
+    'footer footer';
+    grid-template-columns: 1fr 90%;
+    background-color:peachpuff;
+}
+.box {
+    border: solid 1px black
+}
+.card {
+    width: 20rem;
+    border: solid 1px black;
+}
+.bg {
+    background-position: center;
+    background-size: cover;
+}
+.imagen1{
+    grid-area:a;
+   
+}
+.imagen2 {
+    grid-area: b;
+    
+}
+.imagen3 {
+    grid-area: c;
+   
+}
+.imagen4 {
+    grid-area: d;
+}
+.imagen5 {
+    grid-area: e;
+}
+.imagen6 {
+    grid-area: f;
+}
+
+.gallery {
+    height: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    'a b c'
+    'd e f ';
 }
