@@ -1,15 +1,20 @@
 .navbar {
     grid-area: navbar;
-    background-color: cornflowerblue;
+    background-color:rgb(71, 3, 88);
+    height: 90px;
 
     }
 .navbar-item {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
 .asidebar {
     grid-area: asidebar;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
    }
 .main {
     grid-area: main;
@@ -19,6 +24,12 @@
     }
 .footer {
     grid-area: footer;
+    background-color: white; 
+}
+.pie-pagina {
+    color: rgb(71, 3, 88);
+    display: flex;
+    justify-content: center;
 }
 .grid-container{
     display: grid;
@@ -36,10 +47,36 @@
     width: 20rem;
     border: solid 1px black;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria {
+    list-style: none;
+    font-size: 18px;
+}
+
+.list-item {
+   list-style: none;
+   color: white;
+   font-size: 20px
+}
+.list {
+    background-color: rgb(71, 3, 88);
+    display: flex;
+    flex-grow: 0.3;
+    flex-basis: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .bg {
     background-position: center;
     background-size: cover;
 }
+
 .imagen1{
     grid-area:a;
     background-color:white;
@@ -89,4 +126,5 @@
     'd e f ';
     flex-grow: 0.3;
     flex-basis: 70%;
+    grid-template-columns: 30% 30% 30%;
    }
